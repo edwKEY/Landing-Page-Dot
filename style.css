@@ -1,0 +1,181 @@
+body {
+    /*margin: 0px auto;
+    text-align: center;*/
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.intone-block {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.intone-images {
+    background-image: url();
+}
+
+.intone-text {}
+
+.arrow {
+    display: flex;
+    align-self: center;
+}
+
+
+/* Product Features */
+
+.product-features {
+    display: flex;
+    flex-direction: column;
+}
+
+.headline-categori {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.advantage-card-3 {
+    display: flex;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    justify-content: space-around;
+}
+
+
+/*  Product details  */
+
+.header-style {
+    background-image: url(images/Rectangle\ 12.png);
+}
+
+.description-product {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.product-benefits {
+    display: flex;
+    justify-content: flex-start
+}
+
+.product-benefits div ol {
+    padding-left: 0;
+    margin-left: 15px;
+}
+
+
+/* OUR New Products */
+
+.new-products {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+.picture {
+    display: flex;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    justify-content: space-between;
+}
+
+
+/*  OUR CLIENT REVIEWS  */
+
+.our-client-reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-client-reviews {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.style-block-reviews {
+    display: flex;
+    flex-direction: row;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    justify-content: center;
+}
+
+.text-sup-reviews {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*  WE ARE FEATURED ON!  */
+
+.featured-on {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-featured-on {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.embleme {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+/* SUBSCRIBE OUR NEWSLETTER */
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+/*  footer  */
