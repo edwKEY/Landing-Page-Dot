@@ -5,15 +5,14 @@ body {
     margin-right: auto;
 }
 
-.row {
-    display: flex;
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.sz {
-    width: 68px;
-    height: 100px;
-    margin-right: 30px;
-    box-sizing: border-box;
+.row {
+    display: flex;
 }
 
 .col-1,
@@ -29,6 +28,57 @@ body {
 .col-11,
 .col-12 {
     background: rgba(255, 0, 0, 0.3);
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.col-1 {
+    flex-basis: 8.3333%;
+}
+
+.col-2 {
+    flex-basis: 16.6667%;
+}
+
+.col-3 {
+    flex-basis: 24.9999%;
+}
+
+.col-4 {
+    flex-basis: 33.3332%;
+}
+
+.col-5 {
+    flex-basis: 41.6665%;
+}
+
+.col-6 {
+    flex-basis: 49.9998%;
+}
+
+.col-7 {
+    flex-basis: 58.3331%;
+}
+
+.col-8 {
+    flex-basis: 66.6664%;
+}
+
+.col-9 {
+    flex-basis: 74.9997%;
+}
+
+.col-10 {
+    flex-basis: 83.3330%
+}
+
+.col-11 {
+    flex-basis: 91.6663%;
+}
+
+.col-12 {
+    flex-basis: 100%;
 }
 
 .signature {
@@ -55,6 +105,7 @@ body {
 .header-style {
     background-image: url("images/Rectangle\ 12.png");
     color: red;
+    background-size: cover;
     padding: 5px 10px;
 }
 
@@ -68,6 +119,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center
 }
 
 nav {
@@ -91,6 +143,19 @@ header nav a {
 
 /* Intone */
 
+.rect {
+    height: 550px;
+    width: 780px;
+    background-size: cover;
+}
+
+.phone-rectangle {
+    background-image: url("images/Rectangle.png");
+    position: absolute;
+    left: 20px;
+    top: 138px;
+}
+
 .size-intone {
     height: 550px;
 }
@@ -99,16 +164,8 @@ header nav a {
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: center;
-}
-
-.sizes-rectangle {
-    width: 653px;
-    height: 550px;
-}
-
-.phone-rectangle {
-    background-image: url("images/Rectangle.png");
+    justify-content: space-around;
+    background: rgba(244, 198, 202, 0.3);
 }
 
 .intone-block {
@@ -148,6 +205,7 @@ header nav a {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
 }
 
 .advantage-card-3 {
@@ -173,6 +231,8 @@ header nav a {
 .description-product {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    background: rgba(244, 198, 202, 0.3);
 }
 
 .subtitle {
@@ -189,7 +249,7 @@ header nav a {
 
 .product-benefits {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     flex-direction: column;
 }
@@ -216,6 +276,8 @@ header nav a {
 .new-products {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    background: rgba(244, 198, 202, 0.3);
 }
 
 .text {
@@ -260,6 +322,7 @@ header nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .text-client-reviews {
@@ -330,6 +393,8 @@ header nav a {
 .featured-on {
     display: flex;
     flex-direction: column;
+    background: rgba(244, 198, 202, 0.3);
+    justify-content: center;
 }
 
 .text-featured-on {
@@ -355,7 +420,7 @@ header nav a {
 .newsletter {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
 .text-subscribe {
@@ -388,8 +453,9 @@ header nav a {
 .footer-block {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    background: rgba(244, 198, 202, 0.3);
 }
 
 
@@ -464,7 +530,7 @@ header nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 130px;
+    margin-top: 150px;
 }
 
 .get-touch {
@@ -492,5 +558,7 @@ header nav a {
 }
 
 .copyright-footer {
-    margin-left: 50px;
+    margin-left: 25px;
 }
+
+s
