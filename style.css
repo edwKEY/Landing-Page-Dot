@@ -146,7 +146,6 @@ header nav a {
 .rect {
     height: 550px;
     width: 780px;
-    background-size: cover;
 }
 
 .phone-rectangle {
@@ -161,18 +160,14 @@ header nav a {
 }
 
 .intone {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-around;
     background: rgba(244, 198, 202, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .intone-block {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
+    margin-right: 50px;
 }
 
 .arrow {
@@ -183,11 +178,13 @@ header nav a {
 .arrow img:first-child {
     position: absolute;
     left: 110px;
+    top: 400px;
 }
 
 .arrow img:last-child {
     position: absolute;
-    right: 110px;
+    right: 90px;
+    top: 400px;
 }
 
 .szs {
@@ -289,6 +286,7 @@ header nav a {
 .product-block {
     display: flex;
     justify-content: space-between;
+    margin-top: 45px;
 }
 
 .product {
@@ -518,12 +516,14 @@ header nav a {
 /* FOOTER Right-column */
 
 .sizes-rectangle {
-    width: 653px;
+    width: 780px;
     height: 550px;
 }
 
 .footer-rectangle {
     background-image: url("images/Rectangle2.png");
+    position: absolute;
+    right: 20px;
 }
 
 .contact-us {
@@ -558,7 +558,5 @@ header nav a {
 }
 
 .copyright-footer {
-    margin-left: 25px;
+    margin-left: 100px;
 }
-
-s
