@@ -1,8 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Lato', sans-serif;
-    width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .container {
@@ -14,6 +15,8 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 .col-1 {
@@ -271,9 +274,9 @@ header nav a {
 }
 
 .new-products {
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;*/
     background: rgba(244, 198, 202, 0.3);
 }
 
@@ -285,8 +288,6 @@ header nav a {
 
 .product-block {
     display: flex;
-    justify-content: space-between;
-    margin-top: 45px;
 }
 
 .product {
@@ -403,10 +404,10 @@ header nav a {
     margin-bottom: 50px;
 }
 
-.embleme {
+
+/*.embleme {
     display: flex;
-    justify-content: space-between;
-}
+}*/
 
 
 /* SUBSCRIBE OUR NEWSLETTER */
@@ -530,10 +531,13 @@ header nav a {
     right: 20px;
 }
 
+.zindex {
+    z-index: 1;
+}
+
 .contact-us {
     display: flex;
     flex-direction: column;
-    z-index: 1;
 }
 
 .get-touch {
